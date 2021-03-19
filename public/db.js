@@ -56,3 +56,8 @@ fetch("/api/transaction/bulk", {
     }
 
 }
+
+
+//Listner for online 
+
+window.addEventListener("online", checkDatabase)
